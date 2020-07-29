@@ -453,22 +453,22 @@ margin-bottom = 5
 
 ; vim:ft=dosini
 
-[module/isrunning-compton]
-type = custom/script
-exec = ~/.config/polybar/scripts/isrunning-compton.sh
-interval = 1
-click-left = ~/.config/polybar/scripts/isrunning-compton.sh --toggle &
-format-underline = #0000ff
+;[module/isrunning-compton]
+;type = custom/script
+;exec = ~/.config/polybar/scripts/isrunning-compton.sh
+;interval = 1
+;click-left = ~/.config/polybar/scripts/isrunning-compton.sh --toggle &
+;format-underline = #0000ff
 
-[module/updates-ebuild]
-type = custom/script
-exec = ~/.config/polybar/scripts/updates-ebuild.sh
-interval = 1
-format-underline = #0000ff
+;[module/updates-ebuild]
+;type = custom/script
+;exec = ~/.config/polybar/scripts/updates-ebuild.sh
+;interval = 1
+;format-underline = #0000ff
 
-[module/launch-pavucontrol]
-type = custom/script
-exec = ~/.config/polybar/scripts/launch-pavucontrol.sh
-interval = 1
-click-left = ~/.config/polybar/scripts/launch-pavucontrol.sh --toggle &
-format-underline = #0000ff
+;[module/launch-pavucontrol]
+;type = custom/script
+;exec = ~/.config/polybar/scripts/launch-pavucontrol.sh
+;interval = 1
+;click-left = ~/.config/polybar/scripts/launch-pavucontrol.sh --toggle &
+;format-underline = #0000f
