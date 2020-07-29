@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#PLACE IN /usr/bin OR IN /usr/local/bin
+
+
+if [[ "$1" == "--debian" ]]; then
+	sh ~/.config/polybar/launch.sh
+	feh --bg-fill ~/Pictures/background/background1.jpg
+elif [[ "$1" == "--gentoo" ]]; then
+	sh ~/.config/polybar/launch.sh
+	feh --bg-fill ~/Pictures/background/background1.jpg
